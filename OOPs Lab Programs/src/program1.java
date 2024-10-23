@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class program1 {
 
     String usn, name, branch;
