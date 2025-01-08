@@ -6,8 +6,8 @@ public class CharacterPattern {
         char letter = 'A';
         for (int line=1; line<=n; line++) {
             for(int character=1; character<=line; character++) {
-                System.out.print(letter++ +"\t");
-//                letter++;
+                System.out.print(letter+"\t");
+                letter++;
             }
             System.out.println();
         }
