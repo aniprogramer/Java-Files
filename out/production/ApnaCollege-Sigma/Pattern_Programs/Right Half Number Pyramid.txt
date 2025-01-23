@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class RightHalfPyramidPattern {
     public static void printPattern(int n) {
         int num = 0;
-        for (int line = 1; line <= n; line++) {
-            for (int star = 1; star <= line; star++) {
-                System.out.print(num + "\t");
+        for (int line=1; line<=n; line++) {
+            for (int star=1; star<=line; star++) {
+                System.out.print(num+"\t");
                 num++;
             }
             System.out.println("");
